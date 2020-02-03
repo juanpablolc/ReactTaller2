@@ -1,0 +1,46 @@
+#contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+.cuadro {
+    background-size: cover;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+.imagenSuperiorIzquierda {
+    background-image: url('../img/superior-izquierda.png');
+}
+
+.imagenSuperiorCentral {
+    background-image: url('../img/superior-central.png');
+}
+
+.imagenSuperiorDerecha {
+    background-image: url('../img/superior-derecha.png');
+}
+
+.imagenCentralIzquierda {
+    background-image: url('../img/central-izquierda.png');
+}
+
+.imagenCentral {
+    background-image: url('../img/central.png');
+}
+
+.imagenCentralDerecha {
+    background-image: url('../img/central-derecha.png');
+}
+
+.imagenInferiorIzquierda {
+    background-image: url('../img/inferior-izquierda.png');
+}
+
+.imagenInferiorCentral {
+    background-image: url('../img/inferior-central.png');
+}
